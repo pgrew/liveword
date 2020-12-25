@@ -1,0 +1,3 @@
+[submodule "liveword/themes/accessible-minimalism"]
+	path = liveword/themes/accessible-minimalism
+	url = https://github.com/leonstafford/accessible-minimalism-hugo-theme
