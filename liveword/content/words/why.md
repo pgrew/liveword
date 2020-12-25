@@ -4,7 +4,6 @@ date = "2020-12-25"
 description = "The reason why I write."
 tags = [
     "meta",
-    "why",
 ]
 aliases = ["why"]
 +++

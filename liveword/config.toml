@@ -15,6 +15,18 @@ enableRobotsTXT = true
     url = "/words/"
     weight = 2
   [[menu.main]]
-    name = "Sitemap"
-    url = "/sitemap/"
+    name = "About"
+    url = "/about"
     weight = 3
+  [[menu.main]]
+    name = "Contribute"
+    url = "/contribute"
+    weight = 4
+  [[menu.main]]
+    name = "Credits"
+    url = "/credits"
+    weight = 5
+  [[menu.main]]
+    name = "Sitemap"
+    url = "/sitemap"
+    weight = 6
