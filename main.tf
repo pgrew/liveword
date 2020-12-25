@@ -73,3 +73,17 @@ resource "digitalocean_record" "at" {
   name   = "@"
   value  = digitalocean_droplet.liveword.ipv4_address
 }
+
+resource "null_resource" "build" {
+  provisioner "local-exec" {
+    command = "bash build.sh"
+  }
+}
+
+resource "null_resource" "deploy" {
+  provisioner "local-exec" {
+    command = "scp -r liveword/public/* root@${digitalocean_domain.liveword.ip_address}:/home/liveword/www/html && ssh -i ${var.do_ssh_key_path} root@${digitalocean_domain.liveword.ip_address} 'chown -R liveword:www-data /home/liveword/www/html/'"
+  }
+
+  depends_on = [null_resource.build]
+}

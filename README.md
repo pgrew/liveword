@@ -9,4 +9,4 @@ Generate DigitalOcean API token. Create terraform.tfvars this as do_token.
 terraform init
 terraform apply -auto-approve
 
-scp hugo generate files (args?)
+scp hugo generate files (args?)hugo serve --cleanDestinationDir --disableLiveReload --renderToDisk -e production -d public
