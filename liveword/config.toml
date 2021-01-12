@@ -1,4 +1,4 @@
-baseURL = "http://liveword.blog/"
+baseURL = "//liveword.blog/"
 languageCode = "en-us"
 title = "liveword"
 theme = "accessible-minimalism"
@@ -15,18 +15,14 @@ enableRobotsTXT = true
     url = "/words/"
     weight = 2
   [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Photos"
+    url = "/photos"
     weight = 3
   [[menu.main]]
-    name = "Contribute"
-    url = "/contribute"
+    name = "About"
+    url = "/about"
     weight = 4
-  [[menu.main]]
-    name = "Credits"
-    url = "/credits"
-    weight = 5
   [[menu.main]]
     name = "Sitemap"
     url = "/sitemap"
-    weight = 6
+    weight = 5

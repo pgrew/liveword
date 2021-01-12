@@ -8,4 +8,4 @@ tags = [
 aliases = ["why"]
 +++
 
-I write to live my purpose. This circular question aims to distill the irreducible, and I will not ask it again for quite some time.
+I trust that God intends for me to be happy, and I know that happiness is the way not the destination. Each step of the writing process brings me happiness so I am following the way of writing.
