@@ -2,6 +2,8 @@
 
 ufw allow 'Nginx HTTP'
 ufw allow 'OpenSSH'
+ufw allow https
+
 echo y | ufw enable
 
 adduser liveword --system --disabled-password --disabled-login
