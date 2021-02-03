@@ -3,6 +3,12 @@ aliases = ["about"]
 title = "About"
 +++
 
+### Publishings
+
+[Moving Meals](https://www.amazon.com/dp/B08VHNHSMC) - Poems about food.
+
+[Hen's and Greens](https://rubmedirty.com/blogs/recipes/hens-n-greens) - A recipe for roast hen and turnip greens.
+
 The source code for this site is available [here](https://github.com/pgrew/liveword).
 
 
